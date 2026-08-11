@@ -233,14 +233,6 @@ The distributions of the six most important features are compared between correc
 
 These KDE plots help identify regions of the feature space where the model has greater difficulty making predictions.
 
-This leads to a more useful question than simply:
-
-> **"How accurate is the model?"**
-
-Instead, we can ask:
-
-> **"Where does the model struggle, and what characteristics do those samples have?"**
-
 ---
 
 # 🧠 Key Learning Outcomes
@@ -290,24 +282,6 @@ This project reinforced several important machine learning concepts.
 - Confusion matrix heatmaps
 - Feature distribution analysis
 - KDE plots
-
----
-
-# 💡 Key Takeaway
-
-One of the main lessons from this project was that **building a machine learning model is only the beginning**.
-
-A model's accuracy tells us _how often_ it is correct, but deeper analysis helps us understand:
-
-> **What is the model learning?**
-
-> **Which features influence its decisions?**
-
-> **What kinds of examples does it get wrong?**
-
-> **Can we identify patterns in those mistakes?**
-
-This project therefore focuses not only on training a Random Forest classifier, but also on **evaluating and interpreting its behavior**.
 
 ---
 
