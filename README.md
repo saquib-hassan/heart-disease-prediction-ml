@@ -140,7 +140,14 @@ For a medical classification problem, false positives and false negatives can ha
 The final classification report from the published notebook is shown below:
 
 ```text
-Replace this block with the final classification report.
+              precision    recall  f1-score   support
+
+           0       0.97      0.85      0.90        33
+           1       0.84      0.96      0.90        28
+
+    accuracy                           0.90        61
+   macro avg       0.90      0.91      0.90        61
+weighted avg       0.91      0.90      0.90        61
 ```
 
 A strong classifier should ideally demonstrate good precision, recall, and F1-score across both classes rather than relying on a high overall accuracy alone.
